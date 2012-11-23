@@ -1,20 +1,20 @@
 Jekyll & Octopress Plugins
 ========================
 
-# A collection of plugins for Jekyll & Octopress 
+A collection of plugins for Jekyll & Octopress 
 
-# Overview
+## Overview
 
-## Contains the following plugins:
+### Contains the following plugins:
 
 + __filter_posts__ : filters any key/value pair from an array of posts.
 + __filter_featured__ : sample shortcut plugin that will return all posts with "featured: true" in the front matter.
 
-# Usage
+## Usage
 
-## filter_posts
+### filter_posts
 
-### Example Usage:
+#### Example Usage:
 
 ```liquid
 {{ assign posts = site.posts | filter_posts: 'key', 'value'}}
@@ -23,9 +23,9 @@ Jekyll & Octopress Plugins
 {% endfor %}
 ```
 
-## filter_featured
+### filter_featured
 
-### Example Usage:
+#### Example Usage:
 
 ```liquid
 {{ assign posts = site.posts | filter_featured}}
